@@ -4,10 +4,11 @@ Step:2 Use Class/Methods
 Step:3 Display/Save Output
 """
 import gtts
+#google text to speech converter
 import os
 
 myVoice = gtts.gTTS(text="Hi Every One", lang='en',slow= False
-                    #Calling Constructor
+#Calling Constructor
 myVoice.save("MyVOICE1.mp3")
 #Saving Info
 os.system("MyVOICE1.mp3")
